@@ -1,12 +1,7 @@
-/**
- * client/src/utils/roomGenerator.js
- * Generate unique room codes for tracking sessions
- */
+
 
 /**
- * Generate a random alphanumeric room code
- * Format: 6 characters (uppercase letters and numbers)
- * Examples: A7K9F2, PHONE8X, X3P7TQ
+ 
  * @returns {string} Generated room code
  */
 export function generateRoomCode() {

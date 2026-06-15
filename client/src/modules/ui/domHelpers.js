@@ -1,42 +1,37 @@
-/**
- * client/src/modules/ui/domHelpers.js
- * DOM manipulation utilities
- */
-
-/**
- * Update element text content
+/*
+ Update element text content
  */
 export function setText(elementId, text) {
   const el = document.getElementById(elementId);
   if (el) el.textContent = text;
 }
 
-/**
- * Update element HTML
+/*
+  Update element HTML
  */
 export function setHTML(elementId, html) {
   const el = document.getElementById(elementId);
   if (el) el.innerHTML = html;
 }
 
-/**
- * Show element
+/*
+  Show element
  */
 export function show(elementId) {
   const el = document.getElementById(elementId);
   if (el) el.style.display = '';
 }
 
-/**
- * Hide element
+/*
+  Hide element
  */
 export function hide(elementId) {
   const el = document.getElementById(elementId);
   if (el) el.style.display = 'none';
 }
 
-/**
- * Add CSS class
+/*
+ Add CSS class
  */
 export function addClass(elementId, className) {
   const el = document.getElementById(elementId);
